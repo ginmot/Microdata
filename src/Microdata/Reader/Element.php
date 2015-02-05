@@ -154,11 +154,6 @@ class Element extends \DOMElement
             case 'VIDEO':
                 // @todo Should this test that the URL resolves?
                 return $this->getAttribute('src');
-            case 'A':
-            case 'AREA':
-            case 'LINK':
-                // @todo Should this test that the URL resolves?
-                return $this->getAttribute('href');
             case 'OBJECT':
                 // @todo Should this test that the URL resolves?
                 return $this->getAttribute('data');
