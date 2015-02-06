@@ -1,5 +1,5 @@
 {
-    "name": "euskadi31/Microdata",
+    "name": "ginmot/Microdata",
     "type": "library",
     "description": "Extract microdata from HTML using PHP 5.3+",
     "keywords": ["microdata","schema"],
